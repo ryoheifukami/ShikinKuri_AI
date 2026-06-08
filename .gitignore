@@ -1,0 +1,29 @@
+# 環境変数
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 出力ファイル
+output/
+*.xlsx
+!templates/*.xlsx
+
+# サンプルPDF（機密情報を含む可能性があるため）
+samples/*.pdf
